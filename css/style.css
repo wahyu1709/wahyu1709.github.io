@@ -24,6 +24,9 @@ html, body{
     color: #1abc9c !important;
 }
 
+a.dropdown-item{
+    color: #3f3f3f !important;
+}
 
 .arr-right .breadcrumb-item+.breadcrumb-item::before {
     content: "›";
