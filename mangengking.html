@@ -13,30 +13,35 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-sm">
-        <div class="container">
-            <a class="navbar-brand" href="#">SIWIKODE</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="rekreasi.html">Wisata Rekreasi</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="kuliner.html">Wisata Kuliner</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Registrasi</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Login</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+            <div class="container">
+                <a class="navbar-brand" href="#">SIWIKODE</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Registrasi
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="form_rek.html">Registrasi Wisata Rekreasi</a>
+                          <a class="dropdown-item" href="form_kul.html">Registrasi Wisata Kuliner</a>
+                    </li>                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="rekreasi.html">Wisata Rekreasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kuliner.html">Wisata Kuliner</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
